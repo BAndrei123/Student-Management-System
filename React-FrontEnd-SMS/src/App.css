@@ -1,0 +1,154 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.Sidebar{
+  height: 100%;
+  width: 250px;
+  background-color: rgb(109, 16, 16);
+}
+
+.SidebarList {
+  height: auto;
+  padding: 0;
+  width: 100%;
+  margin-top: 0;
+}
+
+.SidebarList .row{
+  width: 100%;
+  height: 50px;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: sans-serif;
+  color: antiquewhite;
+}
+
+.Sidebar .row:hover{
+  cursor: pointer;
+  background-color: antiquewhite;
+  color: black;
+}
+
+
+.row #icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.row #title{
+  flex: 70%;
+  display: grid;
+  align-items: center; 
+
+}
+
+.SidebarList #active{
+  background-color: antiquewhite;
+  color: black;
+}
+.Logout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 59px;
+  color: black;
+  background: antiquewhite;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 750px; 
+  margin-left: 10px;
+  
+}
+
+.Logout:hover{
+  background-color: black;
+  color: antiquewhite;
+}
+
+.SidebarAdmin{
+  height: 100%;
+  width: 250px;
+  background-color: rgb(109, 16, 16);
+}
+
+.SidebarListAdmin {
+  height: auto;
+  padding: 0;
+  width: 100%;
+  margin-top: 0;
+}
+
+.SidebarListAdmin .rowAdmin{
+  width: 100%;
+  height: 50px;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: sans-serif;
+  color: antiquewhite;
+}
+
+.SidebarAdmin .rowAdmin:hover{
+  cursor: pointer;
+  background-color: antiquewhite;
+  color: black;
+}
+
+
+.rowAdmin #iconAdmin {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.rowAdmin #titleAdmin{
+  flex: 70%;
+  display: grid;
+  align-items: center; 
+
+}
+
+.SidebarListAdmin #activeAdmin{
+  background-color: antiquewhite;
+  color: black;
+}
+
+.LogoutAdmin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 59px;
+  color: black;
+  background: antiquewhite;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 650px; 
+  margin-left: 10px;
+  
+}
+
+.LogoutAdmin:hover{
+  background-color: black;
+  color: antiquewhite;
+}

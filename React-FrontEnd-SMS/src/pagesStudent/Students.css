@@ -1,0 +1,138 @@
+.page-container {
+    display: flex;
+    height: 100%;
+   
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  .sidebar-container {
+    width: 250px; /* Adjust the width as needed */
+    height: 100%;
+  }
+  
+
+
+.submit-container-students{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+    justify-content: center;
+}
+
+.submit-students{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 59px;
+    color: #fff;
+    background:  rgb(109, 16, 16);
+    box-shadow: 0 0 20px rgba(71, 0, 0, 0.563);
+    border-radius: 50px;
+    font-size: 21px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray-students{
+    background:#EAEAEA;
+    color: #676767;
+}
+.inputs-students{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input-students{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 60px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.input-students img{
+    margin: 0px 30px;
+}
+
+.input-students input{
+    height: 50px;
+    width: 400px;
+    margin: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.dropdown-students{
+  
+    align-items: center;
+    align-self: center;
+    width: 50%;
+      
+    width: 400px;
+    user-select: none;
+  }
+  
+  .dropdown-students .dropdown-btn{
+    padding: 15px 20px;
+    background: #EAEAEA;
+    border-radius: 6px;
+    font-family: sans-serif;
+    color: #797979;;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .dropdown-students .dropdown-content{
+    position: absolute;
+    padding: 15px;
+   
+  
+    background: #fff;
+    box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.06);
+    font-weight: 500;
+    color : #333;
+    width: 370px;
+    z-index: 1;
+    
+  }
+  
+  .dropdown-students .dropdown-content .dropdown-item{
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+    z-index: 1;
+  }
+  .dropdown-students .dropdown-content .dropdown-item:hover{
+    background: #d3cccc90;
+  
+  }
+
+  .make-change{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 420px;
+    height: 59px;
+    color: #fff;
+    background:  rgb(109, 16, 16);
+    box-shadow: 0 0 20px rgba(71, 0, 0, 0.563);
+    border-radius: 6px;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 20px;
+    cursor: pointer;
+  }

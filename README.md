@@ -38,3 +38,6 @@ ware engineering practices, offering a robust, scalable, and user-friendly platf
 the dynamic and complex needs of modern educational institutions. Its technical sophistication
 and thoughtful design make it an invaluable tool for enhancing administrative efficiency and
 academic management.
+
+![](https://github.com/BAndrei123/Student-Management-System/blob/main/SMS-photo.PNG)
+
